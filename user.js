@@ -13,3 +13,7 @@ user_pref("browser.compactmode.show", true);
 // Allow navigating to manually typed URLs with Enter.
 user_pref("browser.urlbar.autoFill", false);
 
+// 2024-10-03
+// :jumpscare:UI:tooltips:
+// Disable tab preview and giant tooltips when cursor is hovered over tab.
+user_pref("browser.tabs.hoverPreview.enabled", false);
