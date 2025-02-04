@@ -17,3 +17,15 @@ user_pref("browser.urlbar.autoFill", false);
 // :jumpscare:UI:tooltips:
 // Disable tab preview and giant tooltips when cursor is hovered over tab.
 user_pref("browser.tabs.hoverPreview.enabled", false);
+
+// 2025-02-05
+// :UI:pdfjs:sanity:
+// Prevent changing zoom setting to the worst zoom setting every time you dare use the ToC.
+// This behaviour is explicitly (and intentionally) requested by the document and therefore this behaviour is objectively correct. ref. github/mozilla/pdfjs#11970
+user_pref("pdfjs.ignoreDestinationZoom", true);
+
+// 2025-02-05
+// :UI:pdfjs:
+// Do you remember PDF-hand? I remember PDF-hand.
+user_pref("pdfjs.cursorToolOnLoad", 1);
+
