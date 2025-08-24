@@ -35,3 +35,14 @@ user_pref("pdfjs.cursorToolOnLoad", 1);
 // I don't need help deciding how to organise my tabs, thanks.
 user_pref("browser.tabs.groups.smart.searchTopicEnabled", false);
 
+// 2025-08-24
+// :nonsense:search:
+// This controls the *actual* "search suggestions", where it suggests what to search for,
+// because you probably don't even know what to search for.
+user_pref("browser.urlbar.suggest.searches", false);
+// This one seems to be the GUI setting for 'show search suggestions'. I don't really know
+// what this one does in addition to above, but it's included because disabling *both*
+// 'suggesting searches', and 'search suggesting' was too compelling.
+// That, and it can't really make things any worse.
+user_pref("browser.search.suggest.enabled", false);
+
