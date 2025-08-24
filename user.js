@@ -46,3 +46,8 @@ user_pref("browser.urlbar.suggest.searches", false);
 // That, and it can't really make things any worse.
 user_pref("browser.search.suggest.enabled", false);
 
+// 2025-08-24
+// :search:url:
+// Who asked? May I please have a word with them?
+user_pref("browser.urlbar.showSearchTerms.enabled", false);
+
