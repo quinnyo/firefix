@@ -29,3 +29,9 @@ user_pref("pdfjs.ignoreDestinationZoom", true);
 // Do you remember PDF-hand? I remember PDF-hand.
 user_pref("pdfjs.cursorToolOnLoad", 1);
 
+// 2025-08-24
+// :nonsense:tabs:tab-groups:
+// I assume this controls the feature I was threatened with in the latest update's "What now!?" thing.
+// I don't need help deciding how to organise my tabs, thanks.
+user_pref("browser.tabs.groups.smart.searchTopicEnabled", false);
+
