@@ -51,3 +51,20 @@ user_pref("browser.search.suggest.enabled", false);
 // Who asked? May I please have a word with them?
 user_pref("browser.urlbar.showSearchTerms.enabled", false);
 
+// 2026-02-12
+// :autoplay:violence:hatred:prefers-reduced-motion:prefers-zero-lag:experiences-motion-as-pain:
+// No, don't allow autoplay even if the media is *muted*.
+// Why would that even-
+// I really don't. I just.
+// Do you not realise that the *moving picture* is a problem?
+user_pref("media.autoplay.allow-muted", false);
+// Anyway, this seems to be implemented poorly:
+// - the setting (for normal freaks that configure their software) is set to "Block Audio and Video"
+// - some embedded videos still autoplay.
+// - the videos don't have sound, or if they do, it's muted.
+// These videos stopped (as in didn't start again) after casting these simple spells:
+// this one turns on the block-event enablificator for, of autoplay
+user_pref("media.autoplay.block-event.enabled", true);
+// this one twos out the policy rites of blocking for with toward autoplayment
+user_pref("media.autoplay.blocking_policy", 2);
+
